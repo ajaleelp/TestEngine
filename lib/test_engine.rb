@@ -1,5 +1,5 @@
 require "test_engine/engine"
 
 module TestEngine
-  # Your code goes here...
+  mattr_accessor :author_class
 end
